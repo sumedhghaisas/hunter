@@ -16,11 +16,11 @@ hunter_add_version(
     PACKAGE_NAME
     leptonica
     VERSION
-    "1.73"
+    "1.73-p1"
     URL
-    "https://github.com/DanBloomberg/leptonica/archive/v1.73.tar.gz"
+    "https://github.com/sumedhghaisas/leptonica/archive/v1.73-p1.tar.gz"
     SHA1
-    890df98d9450b83a7f01f347e4445e0508b8d5fa
+    3a24baf174719d5b21dcc97e67b2b48cdf2c98ac
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
