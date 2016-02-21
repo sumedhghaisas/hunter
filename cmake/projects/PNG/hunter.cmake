@@ -36,7 +36,7 @@ hunter_add_version(
     3e083ca37efc461704d9af256cdf2231cae6ee9d
 )
 
-hunter_cmake_args(PNG CMAKE_ARGS PNG_TESTS=OFF)
+hunter_cmake_args(PNG CMAKE_ARGS PNG_TESTS=OFF BUILD_SHARED_LIBS=ON)
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(PNG)

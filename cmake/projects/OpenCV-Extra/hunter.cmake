@@ -15,11 +15,11 @@ hunter_add_version(
     PACKAGE_NAME
     OpenCV-Extra
     VERSION
-    "3.0.0"
+    "for_node_opencv"
     URL
-    "https://github.com/Itseez/opencv_contrib/archive/3.0.0.tar.gz"
+    "https://github.com/sumedhghaisas/opencv_contrib/archive/for_node_opencv.tar.gz"
     SHA1
-    6301ce49ec0c851837b62aed8592be9cd9309f79
+    92669bcc29f5c2cbc43ae4ad2647a3b7bb9b0582
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_unpack)

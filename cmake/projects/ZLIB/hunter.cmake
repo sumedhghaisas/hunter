@@ -11,6 +11,7 @@ include(hunter_add_version)
 include(hunter_cacheable)
 include(hunter_download)
 include(hunter_pick_scheme)
+include(hunter_cmake_args)
 
 hunter_add_version(
     PACKAGE_NAME
@@ -55,6 +56,8 @@ hunter_add_version(
     SHA1
     75a05fcc928ed52e1eeb93f07a1c78a7890860c0
 )
+
+hunter_cmake_args(ZLIB CMAKE_ARGS BUILD_SHARED_LIBS=ON)
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(ZLIB)
