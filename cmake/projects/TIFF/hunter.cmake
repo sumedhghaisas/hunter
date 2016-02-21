@@ -11,6 +11,18 @@ include(hunter_add_version)
 include(hunter_cacheable)
 include(hunter_download)
 include(hunter_pick_scheme)
+include(hunter_cmake_args)
+
+hunter_add_version(
+    PACKAGE_NAME
+    TIFF
+    VERSION
+    "4.0.2-p4"
+    URL
+    "https://github.com/sumedhghaisas/tiff/archive/v4.0.2-p4.tar.gz"
+    SHA1
+    91a3befcb4e4d39b69c92cdb366c00f777b2a091
+)
 
 hunter_add_version(
     PACKAGE_NAME
@@ -55,6 +67,8 @@ hunter_add_version(
     SHA1
     37c71656488797c4e5fde620570f1a1b9be36037
 )
+
+hunter_cmake_args(TIFF CMAKE_ARGS BUILD_SHARED_LIBS=ON)
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(TIFF)
