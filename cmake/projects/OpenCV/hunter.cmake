@@ -183,6 +183,10 @@ hunter_cmake_args(
         BUILD_ZLIB=OFF
         BUILD_TIFF=OFF
         BUILD_PNG=OFF
+        WITH_IPP=OFF
+        WITH_OPENEXR=OFF
+        WITH_DSHOW=OFF
+        OPENCV_WITH_EXTRA_MODULES=ON
 )
 
 # Pick a download scheme
@@ -194,5 +198,5 @@ hunter_pick_scheme(DEFAULT url_sha1_cmake)
 #     * libexample_A.a
 #     * libexample_Ad.a
 
-hunter_cacheable(OpenCV)
+#hunter_cacheable(OpenCV)
 hunter_download(PACKAGE_NAME OpenCV)
