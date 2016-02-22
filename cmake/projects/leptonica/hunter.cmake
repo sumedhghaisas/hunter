@@ -20,7 +20,7 @@ hunter_add_version(
     URL
     "https://github.com/sumedhghaisas/leptonica/archive/v1.73-p1.tar.gz"
     SHA1
-    3a24baf174719d5b21dcc97e67b2b48cdf2c98ac
+    b4b706e9b808002fe1377a53c9a633ae82d30a3e
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)

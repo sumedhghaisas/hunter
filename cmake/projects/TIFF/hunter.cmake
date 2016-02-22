@@ -68,8 +68,6 @@ hunter_add_version(
     37c71656488797c4e5fde620570f1a1b9be36037
 )
 
-hunter_cmake_args(TIFF CMAKE_ARGS BUILD_SHARED_LIBS=ON)
-
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(TIFF)
 hunter_download(PACKAGE_NAME TIFF)
