@@ -19,7 +19,7 @@ hunter_add_version(
     URL
     "https://github.com/sumedhghaisas/opencv_contrib/archive/for_node_opencv.tar.gz"
     SHA1
-    3514011eea04d842378e98058ec89929764095d2
+    789c9bf660de2853ce03f14081f4a5a97a96938a
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_unpack)
