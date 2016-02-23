@@ -23,6 +23,5 @@ hunter_add_version(
     d63bf738d4c4166a4e51dc21da3e7509e402a43a
 )
 
-hunter_cmake_args(tesseract CMAKE_ARGS CMAKE_POSITION_INDEPENDENT_CODE=ON)
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_download(PACKAGE_NAME tesseract)
