@@ -20,7 +20,7 @@ hunter_add_version(
     URL
     "https://github.com/sumedhghaisas/tesseract/archive/for_node_opencv.tar.gz"
     SHA1
-    a4224745002995791b2ddb8b994f1f83643773a2
+    a2abb518d4f437c1872a86f195e2bf195dc7b272
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
